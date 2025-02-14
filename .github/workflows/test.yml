@@ -2,7 +2,8 @@ name: Test Before Build
 on:
   push:
     branches:
-      - '!REL/**'
+      - main
+      - dev
   workflow_call:
 jobs:
   test:
